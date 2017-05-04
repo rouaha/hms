@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script type="text/javascript" src="./js/home.js"></script>
+
+</head>
+<body>
+<h1>Welcome to Hospital</h1>
+<div ng-app="myApp" ng-controller="formCtrl">
+    <p>User Name : <input type="text" value="name" ng-model="Userregi.username"/></p>
+    <p>Email : <input type="text" value="name" ng-model="Userregi.email"/></p>
+    <p>Password : <input type="text" value="name" ng-model="Userregi.pass"/></p>
+    <button ng-click="regi()">Signup</button>
+</div>
+</body>
+</html>

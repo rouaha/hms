@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert title here</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+<script type="text/javascript" src="./js/home.js"></script>
+
+</head>
+<body>
+<h1>Welcome to Hospital</h1>
+<div ng-app="myApp" ng-controller="formCtrl">
+    <p>Email : <input type="text" value="name" ng-model="UserlogInfo.email"/></p>
+  <p>Password : <input type="text" value="name" ng-model="UserlogInfo.pass"/></p>
+   <button ng-click="login(UserlogInfo)">Login</button>
+</div> 
+</body>
+</html>
